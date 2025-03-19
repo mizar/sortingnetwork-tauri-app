@@ -9,6 +9,7 @@ This template should help get you started developing with Tauri and Leptos.
 ## 
 
 ```
+rustup target add wasm32-unknown-unknown
 cargo install trunk --locked
 cargo install tauri-cli --version "^2.0.0" --locked
 ```
