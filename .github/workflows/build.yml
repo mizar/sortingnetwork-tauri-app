@@ -39,7 +39,11 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y libwebkit2gtk-4.1-dev libappindicator3-dev librsvg2-dev patchelf
       - name: install frontend dependencies
-        run: yarn install # change this to npm or pnpm depending on which one you use
+        # change this to npm or pnpm depending on which one you use
+        run: |
+          yarn install
+          cargo install trunk --locked
+          cargo install tauri-cli --locked
       - uses: tauri-apps/tauri-action@v0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
