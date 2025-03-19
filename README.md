@@ -24,7 +24,7 @@ Constraints:
 - All inputs are integers.
 - $2\leq N\leq 64$
 - $1\leq M$
-- $1\leq A_i\leq B_i\leq N\quad(1\leq i\leq M)$
+- $1\leq A_i\lt B_i\leq N\quad(1\leq i\leq M)$
 
 ## References
 
