@@ -5,6 +5,8 @@ This application is created with the purpose of visualizing the solver for the f
 - [yukicoder No.3047 Verification of Sorting Network (for Japanese)](https://yukicoder.me/problems/11776) 
 - [Problem and Explanation, Reference Translation to English by GPT](https://gist.github.com/mizar/dbed8f81e1b9f483eaf12dd22a50e3a9)
 
+https://github.com/user-attachments/assets/e6ee78ab-0c24-46e4-bc07-49e19b9d22a4
+
 ## Input Format
 
 The input format for the network in this application follows the style of competitive programming problems as shown below.
