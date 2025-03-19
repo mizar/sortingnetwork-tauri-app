@@ -1,0 +1,32 @@
+product-name = "sortingnetwork-tauri-app"
+version = "0.1.0"
+identifier = "jp.mzr.sortingnetwork-tauri-app.app"
+
+[build]
+before-dev-command = { cwd = "../src-ui", script = "trunk serve" }
+before-build-command = { cwd = "../src-ui", script = "trunk build" }
+devUrl = "http://localhost:1420"
+frontend-dist = "../src-ui/dist"
+
+[app]
+with-global-tauri = true
+
+[[app.windows]]
+title = "sortingnetwork-tauri-app"
+width = 1200
+height = 1024
+resizable = true
+
+[app.security]
+
+
+[bundle]
+active = true
+targets = "all"
+icon = [
+  "icons/32x32.png",
+  "icons/128x128.png",
+  "icons/128x128@2x.png",
+  "icons/icon.icns",
+  "icons/icon.ico",
+]
