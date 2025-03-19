@@ -1,5 +1,5 @@
 product-name = "sortingnetwork-tauri-app"
-version = "0.1.0"
+version = "0.1.1"
 identifier = "jp.mzr.sortingnetwork-tauri-app.app"
 
 [build]
